@@ -5,18 +5,39 @@ An intelligent AI agent that helps you interact with Arxiv papers using Google's
 ## 🚀 Features
 
 - **🔍 Smart Paper Search**: Search for papers on Arxiv using natural language queries
-- **🧠 RAG-powered Chat**: Ask questions about papers and get intelligent responses
-- **📊 Vector Search**: Uses Gemini embeddings for semantic similarity search
-- **💬 Multiple Interfaces**: Web UI (Streamlit) and Command Line Interface
-- **📄 Paper Management**: View and manage your paper collection
+- **🧠 Hybrid RAG System**: Combines paper knowledge with general AI knowledge for complete answers
+- **📊 Advanced Vector Search**: Enhanced semantic similarity with multi-signal reranking
+- **🎯 Smart Search Button**: Automatically finds relevant papers for your questions
+- **�  Multiple Interfaces**: Beautiful web UI (Streamlit) and powerful CLI
+- **�  Intelligent Paper Management**: View, organize, and analyze your paper collection
+- **🎨 High-Contrast UI**: Improved readability with professional design
 - **🔧 Easy Setup**: Simple configuration with environment variables
+- **💡 Search Suggestions**: Get intelligent suggestions for better paper discovery
+
+## ✨ Latest Enhancements
+
+### 🧠 Hybrid Response System
+- **Complete Answers**: Always provides comprehensive responses, even when papers don't contain specific information
+- **General Knowledge Fallback**: Uses AI knowledge to answer fundamental questions
+- **Paper Integration**: Seamlessly combines paper insights with general knowledge
+
+### 🔍 Advanced Search & Ranking
+- **Multi-Signal Reranking**: Combines semantic similarity, keyword matching, title relevance, and abstract relevance
+- **Smart Chunking**: Sentence-aware text splitting for better semantic coherence
+- **Intelligent Suggestions**: Automatic search term suggestions for better paper discovery
+
+### 🎨 Enhanced User Experience
+- **High-Contrast UI**: Professional design with excellent readability
+- **Smart Search Button**: One-click paper discovery and analysis
+- **Better Chat Interface**: Clear message distinction and improved formatting
+- **Real-time Feedback**: Detailed logging and progress indicators
 
 ## 🛠️ Technology Stack
 
 - **LLM**: Google Gemini 1.5 Flash
 - **Embeddings**: Gemini Embedding Model (`embedding-001`)
-- **Vector Search**: FAISS for efficient similarity search
-- **RAG**: Retrieval-Augmented Generation for context-aware responses
+- **Vector Search**: FAISS for efficient similarity search with advanced reranking
+- **RAG**: Enhanced Retrieval-Augmented Generation with hybrid knowledge
 - **Web UI**: Streamlit for beautiful, interactive interface
 - **Paper API**: Arxiv API for paper retrieval
 
